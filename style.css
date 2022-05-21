@@ -135,22 +135,40 @@ body
     margin-bottom: 3%;
 }
 
-.FutureGame{
-    padding-bottom: 7.2%;
-}
-
 .yab{
     margin: auto;
     width: 45%;
     height: 250px;
     border-radius: 10px;
     backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.2);
-    
+    background-color: rgba(107, 142, 255, 0.2);
 }
 
 .first_subblock{
+    position:relative;
+}
 
+.privacy_policy{
+    color: white;
+    font-size: 30px;
+    margin: 5%;
+}
+
+.privacy_policy_sub{
+    color: rgb(186, 186, 186);
+    font-size: 20px;
+    margin: 5%;
+    margin-top: -3%;
+}
+
+.privacy_policy_button{
+    position:absolute;
+    right:0;
+	bottom:0;
+    margin-right:5%;
+    margin-bottom: 5%;
+    height: 75px;
+    width: auto;
 }
 
 .second_subblock{
@@ -197,6 +215,23 @@ body
     .yab{
         width: 95%;
         height: 250px;
+    }
+
+    .privacy_policy{
+        font-size: 40px;
+        margin: 3%;
+    }
+
+    .privacy_policy_sub{
+        color: rgb(186, 186, 186);
+        font-size: 20px;
+        margin: 3%;
+        margin-top: -1%;
+    }
+
+    .privacy_policy_button{
+        margin-right:3%;
+        margin-bottom: 3%;
     }
 }
 
