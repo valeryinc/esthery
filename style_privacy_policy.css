@@ -116,4 +116,8 @@ a {
         font-weight: 600;
         padding:2% 3% 1%;
     }
+
+    .first ul{
+        margin-left: 8%;
+    }
 }
